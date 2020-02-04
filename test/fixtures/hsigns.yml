@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  start-month: MyString
+  start-day: MyString
+  end-month: MyString
+  end-day: MyString
+  sign: MyString
+
+two:
+  start-month: MyString
+  start-day: MyString
+  end-month: MyString
+  end-day: MyString
+  sign: MyString
