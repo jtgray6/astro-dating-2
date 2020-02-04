@@ -10,7 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_02_04_184211) do
+ActiveRecord::Schema.define(version: 2020_02_04_200641) do
+
+  create_table "horoscopes", force: :cascade do |t|
+    t.string "social"
+    t.string "work"
+    t.string "emotional"
+    t.string "dating"
+    t.string "sign"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "hsigns", force: :cascade do |t|
     t.integer "start_month"
@@ -24,8 +34,7 @@ ActiveRecord::Schema.define(version: 2020_02_04_184211) do
 
   create_table "users", force: :cascade do |t|
     t.string "name"
-    t.integer "birth_month"
-    t.integer "birth_day"
+    t.string "sign"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

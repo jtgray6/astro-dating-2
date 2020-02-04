@@ -1,2 +1,3 @@
 class Hsign < ApplicationRecord
+    
 end

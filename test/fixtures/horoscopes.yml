@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  social: MyString
+  work: MyString
+  emotional: MyString
+  dating: MyString
+  hsign: one
+
+two:
+  social: MyString
+  work: MyString
+  emotional: MyString
+  dating: MyString
+  hsign: two
